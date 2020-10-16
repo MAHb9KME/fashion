@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'HelveticaNeueCyr';
+	src: url('HelveticaNeueCyr-Roman.eot');
+	src: local('HelveticaNeueCyr-Roman'),
+		url('HelveticaNeueCyr-Roman.eot?#iefix') format('embedded-opentype'),
+		url('HelveticaNeueCyr-Roman.woff') format('woff'),
+		url('HelveticaNeueCyr-Roman.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaNeueCyr';
+	src: url('HelveticaNeueCyr-Bold.eot');
+	src: local('HelveticaNeueCyr-Bold'),
+		url('HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'),
+		url('HelveticaNeueCyr-Bold.woff') format('woff'),
+		url('HelveticaNeueCyr-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+@font-face {
+	font-family: 'PFRegalDisplayPro';
+	src: url('PFRegalDisplayPro-Regular.eot');
+	src: local('PFRegalDisplayPro-Regular'),
+		url('PFRegalDisplayPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('PFRegalDisplayPro-Regular.woff') format('woff'),
+		url('PFRegalDisplayPro-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'PFRegalDisplayPro';
+	src: url('PFRegalDisplayPro-Medium.eot');
+	src: local('PFRegalDisplayPro-Medium'),
+		url('PFRegalDisplayPro-Medium.eot?#iefix') format('embedded-opentype'),
+		url('PFRegalDisplayPro-Medium.woff') format('woff'),
+		url('PFRegalDisplayPro-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'PFRegalDisplayPro';
+	src: url('PFRegalDisplayPro-Bold.eot');
+	src: local('PFRegalDisplayPro-Bold'),
+		url('PFRegalDisplayPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('PFRegalDisplayPro-Bold.woff') format('woff'),
+		url('PFRegalDisplayPro-Bold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: italic;
+}
