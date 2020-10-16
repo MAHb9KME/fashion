@@ -920,8 +920,174 @@
 
 
 
-	<div class="block">
-		asdasda
+	
+	<div class="wr-video-field ht-distance">
+		<div class="container">
+			<div class="title">Видео</div>
+
+				<div class="video-field xs_flex xs_wrap">
+
+					<div class="wr-video-inner">
+						<div class="video-inner">
+							<span class="like"></span>
+								<a href="#" class="full-img xs_flex xs_column xs_end">
+									<img src="images/pics/video_1.jpg" alt="">
+									<span class="text">
+										<span class="txt-title">
+											Основы композиции для стилистов, а также законы композиции для стилистов
+										</span>
+										<span class="introduce">
+											<span class="name">Миронова Анастасия</span>
+											<span class="price xs_flex xs_start xs_middle">
+												<span class="new">700 р</span> 
+												<span class="old">900 р</span>
+											</span>
+										</span>
+									</span>
+								</a>
+						</div>
+						<div class="video-inner">
+							<span class="like"></span>
+								<a href="#" class="full-img xs_flex xs_column xs_end">
+									<img src="images/pics/video_3mx.jpg" alt="">
+									<span class="text">
+										<span class="txt-title">
+											Моделирование женского платья
+										</span>
+										<span class="introduce">
+											<span class="name">Миронова Анастасия</span>
+											<span class="price xs_flex xs_start xs_middle">
+												<span class="new">700 р</span> 
+												<span class="old">900 р</span>
+											</span>
+										</span>
+									</span>
+								</a>
+						</div>
+						<div class="video-inner">
+							<span class="like"></span>
+								<a href="#" class="full-img xs_flex xs_column xs_end">
+									<img src="images/pics/video_4mx.jpg" alt="">
+									<span class="text">
+										<span class="txt-title">
+											Пропорции лица и головы
+										</span>
+										<span class="introduce">
+											<span class="name">Миронова Анастасия</span>
+											<span class="price xs_flex xs_start xs_middle">
+												<span class="new">700 р</span> 
+												<span class="old">900 р</span>
+											</span>
+										</span>
+									</span>
+								</a>
+						</div>
+						<div class="video-inner">
+							<span class="like"></span>
+								<a href="#" class="full-img xs_flex xs_column xs_end">
+									<img src="images/pics/video_5mx.jpg" alt="">
+									<span class="text">
+										<span class="txt-title">
+											Мой make-up
+										</span>
+										<span class="introduce">
+											<span class="name">Миронова Анастасия</span>
+											<span class="price xs_flex xs_start xs_middle">
+												<span class="new">899 р</span> 
+												<span class="old">4 799 р</span>
+											</span>
+										</span>
+									</span>
+								</a>
+						</div>
+					</div>
+
+					<div class="video-list">
+						<div class="wr-item">
+							<div class="item xs_flex xs_start xs_top">
+								<div class="short-img">
+									<img src="images/pics/video_2.jpg" alt="">
+									<span class="play-btn"></span>
+									<span class="timelaps">1 ч 15 мин</span>
+								</div>
+								<div class="text">
+									<strong>Основы моделирования женской одежды</strong>
+
+									<div class="txt-ground">
+										<div class="price">
+											<span class="new">899 р</span> 
+											<span class="old">4 799 р</span>
+										</div>
+										<div class="name">Миронова Анастасия</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wr-item">
+							<div class="item xs_flex xs_start xs_top">
+								<div class="short-img">
+									<img src="images/pics/video_3.jpg" alt="">
+									<span class="play-btn"></span>
+									<span class="timelaps">1 ч 15 мин</span>
+								</div>
+								<div class="text">
+									<strong>Моделирование женского платья</strong>
+
+									<div class="txt-ground">
+										<div class="price">
+											<span class="new">899 р</span> 
+											<span class="old">4 799 р</span>
+										</div>
+										<div class="name">Миронова Анастасия</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wr-item">
+							<div class="item xs_flex xs_start xs_top">
+								<div class="short-img">
+									<img src="images/pics/video_4.jpg" alt="">
+										<span class="play-btn"></span>
+										<span class="timelaps">1 ч 15 мин</span>
+								</div>
+								<div class="text">
+									<strong>Пропорции лица и головы</strong>
+
+									<div class="txt-ground">
+										<div class="price">
+											<span class="new">899 р</span> 
+											<span class="old">4 799 р</span>
+										</div>
+										<div class="name">Миронова Анастасия</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wr-item">
+							<div class="item xs_flex xs_start xs_top">
+								<div class="short-img">
+									<img src="images/pics/video_5.jpg" alt="">
+										<span class="play-btn"></span>
+										<span class="timelaps">1 ч 15 мин</span>
+								</div>
+								<div class="text">
+									<strong>Мой make-up</strong>
+
+									<div class="txt-ground">
+										<div class="price">
+											<span class="new">899 р</span> 
+											<span class="old">4 799 р</span>
+										</div>
+										<div class="name">Миронова Анастасия</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<a href="#" class="btn_link">Показать все видео материалы</a>
+		</div>
 	</div>
 
 
