@@ -334,6 +334,7 @@ jQuery(function($){
 	    centerMode: false,
 	    focusOnSelect: true,
         vertical: true,
+        arrows:false,
         verticalSwiping: true
 	});
 

@@ -35,7 +35,7 @@
 			<div class="mat-content tab1 active">
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like active"></span>
+						<a class="like active"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop1.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -72,7 +72,7 @@
 
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop2.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -109,7 +109,7 @@
 
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop3.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -146,7 +146,7 @@
 
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop4.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -182,7 +182,7 @@
 
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop5.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -219,7 +219,7 @@
 
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop4.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -257,7 +257,7 @@
 			<div class="mat-content tab2">
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop3.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -293,7 +293,7 @@
 				</div>
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop3.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -329,7 +329,7 @@
 				</div>
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop3.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -365,7 +365,7 @@
 				</div>
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop3.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -401,7 +401,7 @@
 				</div>
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop3.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -437,7 +437,7 @@
 				</div>
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop3.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -476,7 +476,7 @@
 			<div class="mat-content tab3">
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop2.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -512,7 +512,7 @@
 				</div>
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop2.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -548,7 +548,7 @@
 				</div>
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop2.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -584,7 +584,7 @@
 				</div>
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop2.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -620,7 +620,7 @@
 				</div>
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop2.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -656,7 +656,7 @@
 				</div>
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop2.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -695,7 +695,7 @@
 			<div class="mat-content tab4">
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop5.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -731,7 +731,7 @@
 				</div>
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop5.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -767,7 +767,7 @@
 				</div>
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop5.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -803,7 +803,7 @@
 				</div>
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop5.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -839,7 +839,7 @@
 				</div>
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop5.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -875,7 +875,7 @@
 				</div>
 				<div class="item">
 					<div class="wr-photo">
-						<span class="like"></span>
+						<a href="#" class="like"></a>
 						<a href="#" class="photo" style="background: url('images/pics/pop5.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
 
@@ -929,7 +929,7 @@
 
 					<div class="wr-video-inner">
 						<div class="video-inner">
-							<span class="like"></span>
+							<a href="#" class="like"></a>
 								<a href="#" class="full-img xs_flex xs_column xs_end">
 									<img src="images/pics/video_1.jpg" alt="">
 									<span class="text">
@@ -947,7 +947,7 @@
 								</a>
 						</div>
 						<div class="video-inner">
-							<span class="like"></span>
+							<a href="#" class="like"></a>
 								<a href="#" class="full-img xs_flex xs_column xs_end">
 									<img src="images/pics/video_3mx.jpg" alt="">
 									<span class="text">
@@ -965,7 +965,7 @@
 								</a>
 						</div>
 						<div class="video-inner">
-							<span class="like"></span>
+							<a href="#" class="like"></a>
 								<a href="#" class="full-img xs_flex xs_column xs_end">
 									<img src="images/pics/video_4mx.jpg" alt="">
 									<span class="text">
@@ -983,7 +983,7 @@
 								</a>
 						</div>
 						<div class="video-inner">
-							<span class="like"></span>
+							<a href="#" class="like"></a>
 								<a href="#" class="full-img xs_flex xs_column xs_end">
 									<img src="images/pics/video_5mx.jpg" alt="">
 									<span class="text">
@@ -1005,13 +1005,13 @@
 					<div class="video-list">
 						<div class="wr-item">
 							<div class="item xs_flex xs_start xs_top">
-								<div class="short-img">
+								<a href="#" class="short-img">
 									<img src="images/pics/video_2.jpg" alt="">
 									<span class="play-btn"></span>
 									<span class="timelaps">1 ч 15 мин</span>
-								</div>
+								</a>
 								<div class="text">
-									<strong>Основы моделирования женской одежды</strong>
+									<a href="#">Основы моделирования женской одежды</a>
 
 									<div class="txt-ground">
 										<div class="price">
@@ -1025,13 +1025,13 @@
 						</div>
 						<div class="wr-item">
 							<div class="item xs_flex xs_start xs_top">
-								<div class="short-img">
+								<a href="#" class="short-img">
 									<img src="images/pics/video_3.jpg" alt="">
 									<span class="play-btn"></span>
 									<span class="timelaps">1 ч 15 мин</span>
-								</div>
+								</a>
 								<div class="text">
-									<strong>Моделирование женского платья</strong>
+									<a href="#">Моделирование женского платья</a>
 
 									<div class="txt-ground">
 										<div class="price">
@@ -1045,13 +1045,13 @@
 						</div>
 						<div class="wr-item">
 							<div class="item xs_flex xs_start xs_top">
-								<div class="short-img">
+								<a href="#" class="short-img">
 									<img src="images/pics/video_4.jpg" alt="">
 										<span class="play-btn"></span>
 										<span class="timelaps">1 ч 15 мин</span>
-								</div>
+								</a>
 								<div class="text">
-									<strong>Пропорции лица и головы</strong>
+									<a href="#">Пропорции лица и головы</a>
 
 									<div class="txt-ground">
 										<div class="price">
@@ -1065,13 +1065,13 @@
 						</div>
 						<div class="wr-item">
 							<div class="item xs_flex xs_start xs_top">
-								<div class="short-img">
+								<a href="#" class="short-img">
 									<img src="images/pics/video_5.jpg" alt="">
 										<span class="play-btn"></span>
 										<span class="timelaps">1 ч 15 мин</span>
-								</div>
+								</a>
 								<div class="text">
-									<strong>Мой make-up</strong>
+									<a href="#">Мой make-up</a>
 
 									<div class="txt-ground">
 										<div class="price">
