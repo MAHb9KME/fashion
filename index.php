@@ -183,7 +183,7 @@
 
 			<div class="item">
 				<div class="wr-photo">
-					<span class="like"></span>
+					<span class="like active"></span>
 					<a href="#" class="photo" style="background: url('images/pics/pop5.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 				</div>
 

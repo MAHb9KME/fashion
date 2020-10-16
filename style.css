@@ -246,6 +246,10 @@ i{
     border: 1px solid rgb(0 0 0 / 0%);
     text-transform: uppercase;
     color: #fff !important; 
+    transition: .2s all;
+}
+.btn_action:hover{
+    text-shadow: 2px 2px rgb(0 0 0 / 47%);
 }
 
 .btn_link{
@@ -685,9 +689,11 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     cursor: pointer;
     transition: .2s all;
 }
-.mat-content .item .wr-photo .like:hover{
+.mat-content .item .wr-photo .like:hover,
+.mat-content .item .wr-photo .like.active{
     background-color: #d02172;
 }
+
 .mat-content .item .wr-photo .like:before,
 .mat-content .item .wr-photo .like:after{
     content: '';
@@ -714,7 +720,9 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
 .mat-content .item .wr-photo .like:hover:before{
     opacity: 0;
 }
-.mat-content .item .wr-photo .like:hover:after{
+.mat-content .item .wr-photo .like:hover:after,
+.mat-content .item .wr-photo .like.active:after{
+    content:'';
     opacity: 1;
 }
 
@@ -755,7 +763,7 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     display: block;
     color: #030404;
     font-size: 24px;
-    height: 100px;
+    height: 130px;
     overflow: hidden;
     line-height: 130%;
     border-bottom: 1px solid #e5e5e5;
