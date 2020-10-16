@@ -637,8 +637,6 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
 }
 .mat-navigate ul li{
     list-style-type: none;
-}
-.mat-navigate ul li a{
     display: inline-block;
     text-transform: uppercase;
     font-size: 14px;
@@ -649,13 +647,14 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     padding: 25px 58px 25px 20px;
     border-bottom: 1px solid #f1f1f1;
     transition: .2s all;
+    cursor: pointer;
 }
-.mat-navigate ul li:first-child a{
+.mat-navigate ul li:first-child{
     padding-left: 0;
 }
 
-.mat-navigate ul li a:hover,
-.mat-navigate ul li a.active{
+.mat-navigate ul li:hover,
+.mat-navigate ul li.active{
     color: #e33873;
     opacity: 1;
     border-bottom: 1px solid #d02172;
@@ -672,7 +671,7 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 17.4%;
+    width: 17.5%;
     z-index: 989;
     cursor: pointer;
     background: #fff;
@@ -691,6 +690,10 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
 .mat-content{
     margin: 0px -5.5%;
     overflow: hidden;
+    display: none !important;
+}
+.mat-content.active{
+    display: block !important;
 }
 .mat-content .item{
     width: 30%;
@@ -794,7 +797,7 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     line-height: 130%;
     border-bottom: 1px solid #e5e5e5;
 }
-.mat-content .item:hover a.item-title{
+.mat-content .item a.item-title:hover{
     background: linear-gradient(to right, #9a3fc5, #e51553);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -805,7 +808,7 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     overflow: hidden;
 }
 .mat-content .item .info .identity{
-    transition: .3s all;
+    transition: .4s all;
     margin-bottom: 20px;
     padding-bottom: 10px;
 }

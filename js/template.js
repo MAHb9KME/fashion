@@ -241,9 +241,7 @@ jQuery(function($){
 
 	// Слайдер Популярные материалы
 
-	// Активируем слайдер
-
-	$('.mat-content').slick({
+	$('.mat-content.active').slick({
   		slidesToShow: 5,
   		slidesToScroll: 1,
 		arrows: false,
@@ -268,5 +266,54 @@ jQuery(function($){
 		}]
 	});
 
+
+	// Табы Популярные материалы
+
+	$('.mat-navigate li').click(function(){
+        $('.mat-navigate li').removeClass('active');
+        $(this).addClass('active');
+        var $get_id = $(this).attr('id');
+        $('.wr-mat-content .mat-content').removeClass('active');
+        $('.wr-mat-content .mat-content.'+$get_id).addClass('active');
+
+
+        $('.selection .treatment .wr_text .arrow .next').removeClass('active')
+
+			setTimeout(function()
+			{
+				if(!$('.wr-mat-content .mat-content.'+$get_id).hasClass('slick-slider'))
+				{
+					$('.wr-mat-content .mat-content.'+$get_id).slick({
+						slidesToShow: 5,
+				  		slidesToScroll: 1,
+						arrows: false,
+						infinite: true,
+						swipe: true,
+						centerMode: true,
+						speed: 400,
+				  		responsive: [
+						{
+						    breakpoint: 900,
+						    settings: {
+								slidesToShow: 2,
+								slidesToScroll: 1
+							}
+						},
+						{
+						    breakpoint: 600,
+						    settings: {
+						        slidesToShow: 1,
+						        slidesToScroll: 1
+							}
+						}]
+					}) 
+				}
+
+			}, 50)
+
+        return false;
+    });
+
 })
 	
+
