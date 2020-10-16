@@ -238,5 +238,35 @@ jQuery(function($){
 		});
 	}
 
+
+	// Слайдер Популярные материалы
+
+	// Активируем слайдер
+
+	$('.mat-content').slick({
+  		slidesToShow: 5,
+  		slidesToScroll: 1,
+		arrows: false,
+		infinite: true,
+		swipe: true,
+		centerMode: true,
+		speed: 400,
+  		responsive: [
+		{
+		    breakpoint: 900,
+		    settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1
+			}
+		},
+		{
+		    breakpoint: 600,
+		    settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1
+			}
+		}]
+	});
+
 })
 	

@@ -661,15 +661,41 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     border-bottom: 1px solid #d02172;
 }
 
+.wr-mat-content{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 120px;
+}
+.wr-mat-content .prev-click,
+.wr-mat-content .next-click{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 17.4%;
+    z-index: 989;
+    cursor: pointer;
+    background: #fff;
+    opacity: 0.7;
+}
+
+.wr-mat-content .prev-click{
+    left: 0;
+    right: auto;
+}
+.wr-mat-content .next-click{
+    left: auto;
+    right: 0;
+}
 
 .mat-content{
-    margin: 0 -20px 120px;
-    width: 100%;
+    margin: 0px -5.5%;
     overflow: hidden;
 }
 .mat-content .item{
     width: 30%;
     margin: 0 20px;
+    max-width: 363px;
 }
 .mat-content .item .wr-photo{
     margin-bottom: 40px;
@@ -768,15 +794,20 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     line-height: 130%;
     border-bottom: 1px solid #e5e5e5;
 }
-
+.mat-content .item:hover a.item-title{
+    background: linear-gradient(to right, #9a3fc5, #e51553);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .mat-content .item .info{
-    margin-top: 35px;
-    max-height: 64px;
+    margin-top: 45px;
+    max-height: 74px;
     overflow: hidden;
 }
 .mat-content .item .info .identity{
     transition: .3s all;
     margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 .mat-content .item:hover .info .identity{
     margin-top: -84px;
@@ -817,6 +848,7 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
 
 .mat-content .item .info .info-action{
     transition: .3s all;
+    padding-bottom: 10px;
 }
 .mat-content .item:hover .info .info-action{}
 

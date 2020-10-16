@@ -27,193 +27,235 @@
 			</div>
 		</div>
 
-		<div class="mat-content xs_flex">
+		<div class="wr-mat-content">
 
-			<div class="item">
+			<div class="prev-click" onclick="jQuery('.mat-content').slick('slickPrev')"></div>
+			<div class="next-click" onclick="jQuery('.mat-content').slick('slickNext')"></div>
 
-				<div class="wr-photo">
-					<span class="like"></span>
-					<a href="#" class="photo" style="background: url('images/pics/pop1.jpg') no-repeat 50% 50%; background-size: cover;"></a>
-				</div>
+			<div class="mat-content">
+
+				<div class="item">
+
+					<div class="wr-photo">
+						<span class="like active"></span>
+						<a href="#" class="photo" style="background: url('images/pics/pop1.jpg') no-repeat 50% 50%; background-size: cover;"></a>
+					</div>
 
 
 
-				<div class="type-icon articles">
-					<span>Статья</span>
-				</div>
+					<div class="type-icon articles">
+						<span>Статья</span>
+					</div>
 
-				<a href="#" class="item-title">
-					Модель моего будущего
-				</a>
+					<a href="#" class="item-title">
+						Модель моего будущего
+					</a>
 
-				<div class="info">
-					<div class="identity xs_flex xs_middle">
-						<div class="info-txt">
-							<div class="name">Миронова Анастасия</div>
-							<div class="price xs_flex xs_start xs_middle">
-								<div class="new">690 руб</div>
-								<div class="old">1 220 руб</div>
+					<div class="info">
+						<div class="identity xs_flex xs_middle">
+							<div class="info-txt">
+								<div class="name">Миронова Анастасия</div>
+								<div class="price xs_flex xs_start xs_middle">
+									<div class="new">690 руб</div>
+									<div class="old">1 220 руб</div>
+								</div>
+							</div>
+							<div class="avatar">
+								<img src="images/pics/avatar_1.png" alt="">
 							</div>
 						</div>
-						<div class="avatar">
-							<img src="images/pics/avatar_1.png" alt="">
+
+						<div class="info-action xs_flex xs_middle xs_start">
+							<a href="#" class="btn">
+								<span>Подробнее</span>
+							</a>
+							<a href="#" class="btn_action">Купить</a>
 						</div>
 					</div>
+				</div>
 
-					<div class="info-action xs_flex xs_middle xs_start">
-						<a href="#" class="btn">
-							<span>Подробнее</span>
-						</a>
-						<a href="#" class="btn_action">Купить</a>
+				<div class="item">
+					<div class="wr-photo">
+						<span class="like"></span>
+						<a href="#" class="photo" style="background: url('images/pics/pop2.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
-				</div>
-			</div>
-
-			<div class="item">
-				<div class="wr-photo">
-					<span class="like"></span>
-					<a href="#" class="photo" style="background: url('images/pics/pop2.jpg') no-repeat 50% 50%; background-size: cover;"></a>
-				</div>
 
 
 
-				<div class="type-icon audio">
-					<span>Аудио</span>
-				</div>
+					<div class="type-icon audio">
+						<span>Аудио</span>
+					</div>
 
-				<a href="#" class="item-title">
-					5 джинсовых трендов осени 2020
-				</a>
+					<a href="#" class="item-title">
+						5 джинсовых трендов осени 2020
+					</a>
 
-				<div class="info">
-					<div class="identity xs_flex xs_middle">
-						<div class="info-txt">
-							<div class="name">Миронова Анастасия</div>
-							<div class="price xs_flex xs_start xs_middle">
-								<div class="new">690 руб</div>
-								<div class="old">1 220 руб</div>
+					<div class="info">
+						<div class="identity xs_flex xs_middle">
+							<div class="info-txt">
+								<div class="name">Миронова Анастасия</div>
+								<div class="price xs_flex xs_start xs_middle">
+									<div class="new">690 руб</div>
+									<div class="old">1 220 руб</div>
+								</div>
+							</div>
+							<div class="avatar">
+								<img src="images/pics/avatar_2.png" alt="">
 							</div>
 						</div>
-						<div class="avatar">
-							<img src="images/pics/avatar_2.png" alt="">
+
+						<div class="info-action xs_flex xs_middle xs_start">
+							<a href="#" class="btn">
+								<span>Подробнее</span>
+							</a>
+							<a href="#" class="btn_action">Купить</a>
 						</div>
 					</div>
+				</div>
 
-					<div class="info-action xs_flex xs_middle xs_start">
-						<a href="#" class="btn">
-							<span>Подробнее</span>
-						</a>
-						<a href="#" class="btn_action">Купить</a>
+				<div class="item">
+					<div class="wr-photo">
+						<span class="like"></span>
+						<a href="#" class="photo" style="background: url('images/pics/pop3.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
-				</div>
-			</div>
 
-			<div class="item">
-				<div class="wr-photo">
-					<span class="like"></span>
-					<a href="#" class="photo" style="background: url('images/pics/pop3.jpg') no-repeat 50% 50%; background-size: cover;"></a>
-				</div>
+					<div class="type-icon video">
+						<span>видео</span>
+					</div>
 
-				<div class="type-icon video">
-					<span>видео</span>
-				</div>
+					<a href="#" class="item-title">
+						Мода америки: традиции и современность
+					</a>
 
-				<a href="#" class="item-title">
-					Мода америки: традиции и современность
-				</a>
-
-				<div class="info">
-					<div class="identity xs_flex xs_middle">
-						<div class="info-txt">
-							<div class="name">Миронова Анастасия</div>
-							<div class="price xs_flex xs_start xs_middle">
-								<div class="new">690 руб</div>
-								<div class="old">1 220 руб</div>
+					<div class="info">
+						<div class="identity xs_flex xs_middle">
+							<div class="info-txt">
+								<div class="name">Миронова Анастасия</div>
+								<div class="price xs_flex xs_start xs_middle">
+									<div class="new">690 руб</div>
+									<div class="old">1 220 руб</div>
+								</div>
+							</div>
+							<div class="avatar">
+								<img src="images/pics/avatar_2.png" alt="">
 							</div>
 						</div>
-						<div class="avatar">
-							<img src="images/pics/avatar_2.png" alt="">
+
+						<div class="info-action xs_flex xs_middle xs_start">
+							<a href="#" class="btn">
+								<span>Подробнее</span>
+							</a>
+							<a href="#" class="btn_action">Купить</a>
 						</div>
 					</div>
+				</div>
 
-					<div class="info-action xs_flex xs_middle xs_start">
-						<a href="#" class="btn">
-							<span>Подробнее</span>
-						</a>
-						<a href="#" class="btn_action">Купить</a>
+				<div class="item">
+					<div class="wr-photo">
+						<span class="like"></span>
+						<a href="#" class="photo" style="background: url('images/pics/pop4.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
-				</div>
-			</div>
 
-			<div class="item">
-				<div class="wr-photo">
-					<span class="like"></span>
-					<a href="#" class="photo" style="background: url('images/pics/pop4.jpg') no-repeat 50% 50%; background-size: cover;"></a>
-				</div>
+					<div class="type-icon articles">
+						<span>статья</span>
+					</div>
 
-				<div class="type-icon articles">
-					<span>статья</span>
-				</div>
+					<a href="#" class="item-title">
+						Визуальные коммуникации брендов: от кампейнов до магазинов
+					</a>
 
-				<a href="#" class="item-title">
-					Визуальные коммуникации брендов: от кампейнов до магазинов
-				</a>
-
-				<div class="info">
-					<div class="identity xs_flex xs_middle">
-						<div class="info-txt">
-							<div class="name">Миронова Анастасия</div>
-							<div class="price xs_flex xs_start xs_middle">
-								<div class="new">1 050 руб </div>
+					<div class="info">
+						<div class="identity xs_flex xs_middle">
+							<div class="info-txt">
+								<div class="name">Миронова Анастасия</div>
+								<div class="price xs_flex xs_start xs_middle">
+									<div class="new">1 050 руб </div>
+								</div>
+							</div>
+							<div class="avatar">
+								<img src="images/pics/avatar_3.png" alt="">
 							</div>
 						</div>
-						<div class="avatar">
-							<img src="images/pics/avatar_3.png" alt="">
+
+						<div class="info-action xs_flex xs_middle xs_start">
+							<a href="#" class="btn">
+								<span>Подробнее</span>
+							</a>
+							<a href="#" class="btn_action">Купить</a>
 						</div>
 					</div>
+				</div>
 
-					<div class="info-action xs_flex xs_middle xs_start">
-						<a href="#" class="btn">
-							<span>Подробнее</span>
-						</a>
-						<a href="#" class="btn_action">Купить</a>
+				<div class="item">
+					<div class="wr-photo">
+						<span class="like"></span>
+						<a href="#" class="photo" style="background: url('images/pics/pop5.jpg') no-repeat 50% 50%; background-size: cover;"></a>
 					</div>
-				</div>
-			</div>
 
-			<div class="item">
-				<div class="wr-photo">
-					<span class="like active"></span>
-					<a href="#" class="photo" style="background: url('images/pics/pop5.jpg') no-repeat 50% 50%; background-size: cover;"></a>
-				</div>
+					<div class="type-icon articles">
+						<span>статья</span>
+					</div>
 
-				<div class="type-icon articles">
-					<span>статья</span>
-				</div>
+					<a href="#" class="item-title">
+						Model Class | Как стать успешной моделью в Азии
+					</a>
 
-				<a href="#" class="item-title">
-					Model Class | Как стать успешной моделью в Азии
-				</a>
-
-				<div class="info">
-					<div class="identity xs_flex xs_middle">
-						<div class="info-txt">
-							<div class="name">Миронова Анастасия</div>
-							<div class="price xs_flex xs_start xs_middle">
-								<div class="new">990 руб</div>
-								<div class="old"></div>
+					<div class="info">
+						<div class="identity xs_flex xs_middle">
+							<div class="info-txt">
+								<div class="name">Миронова Анастасия</div>
+								<div class="price xs_flex xs_start xs_middle">
+									<div class="new">990 руб</div>
+									<div class="old"></div>
+								</div>
+							</div>
+							<div class="avatar">
+								<img src="images/pics/avatar_5.png" alt="">
 							</div>
 						</div>
-						<div class="avatar">
-							<img src="images/pics/avatar_5.png" alt="">
+
+						<div class="info-action xs_flex xs_middle xs_start">
+							<a href="#" class="btn">
+								<span>Подробнее</span>
+							</a>
+							<a href="#" class="btn_action">Купить</a>
 						</div>
 					</div>
+				</div>
 
-					<div class="info-action xs_flex xs_middle xs_start">
-						<a href="#" class="btn">
-							<span>Подробнее</span>
-						</a>
-						<a href="#" class="btn_action">Купить</a>
+				<div class="item">
+					<div class="wr-photo">
+						<span class="like"></span>
+						<a href="#" class="photo" style="background: url('images/pics/pop4.jpg') no-repeat 50% 50%; background-size: cover;"></a>
+					</div>
+
+					<div class="type-icon articles">
+						<span>статья</span>
+					</div>
+
+					<a href="#" class="item-title">
+						Визуальные коммуникации брендов: от кампейнов до магазинов
+					</a>
+
+					<div class="info">
+						<div class="identity xs_flex xs_middle">
+							<div class="info-txt">
+								<div class="name">Миронова Анастасия</div>
+								<div class="price xs_flex xs_start xs_middle">
+									<div class="new">1 050 руб </div>
+								</div>
+							</div>
+							<div class="avatar">
+								<img src="images/pics/avatar_3.png" alt="">
+							</div>
+						</div>
+
+						<div class="info-action xs_flex xs_middle xs_start">
+							<a href="#" class="btn">
+								<span>Подробнее</span>
+							</a>
+							<a href="#" class="btn_action">Купить</a>
+						</div>
 					</div>
 				</div>
 			</div>
