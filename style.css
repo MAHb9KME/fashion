@@ -703,6 +703,7 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
 .mat-content .item .wr-photo{
     margin-bottom: 40px;
     position: relative;
+    overflow: hidden;
 }
 .mat-content .item .wr-photo .like{
     display: block;
@@ -759,7 +760,14 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     display: block;
     width: 100%;
     padding-top: 260px;
+    transition: .2s all;
 }
+.mat-content .item .wr-photo:hover a.photo{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
 
 .mat-content .item .type-icon{
     margin-bottom: 30px;
