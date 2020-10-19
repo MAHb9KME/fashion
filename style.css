@@ -177,7 +177,7 @@ i{
 .btn{
     background-color: #fff;
     color: #030404;
-    border-radius: 28px;
+    border-radius: 50px;
     cursor: pointer;
     padding: 15px 42px;
     border: 1px solid rgb(0 0 0 / 0.1);
@@ -194,7 +194,7 @@ i{
     display: block;
     background-color: #5f9cd1;
     text-decoration: none;
-    border-radius: 28px;
+    border-radius: 50px;
     color: #fff;
     background-image: linear-gradient(-250deg, #9a3fc5 0%, #fb60c3 50%, #e51553 100%);
     text-shadow: 0 1px 0 rgba(85, 28, 60, 0.52);
@@ -237,7 +237,7 @@ i{
 .btn_action{
     padding: 15px 42px;
     font-size:12px;
-    border-radius: 28px;
+    border-radius: 50px;
     background-color: #5f9cd1;
     text-decoration: none;
     color: #fff;
@@ -1077,11 +1077,33 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
 
 
 
-
-
-
-
-
+.wr-sale-banner{
+    background-color: #030404;
+    padding: 60px 0;
+    min-height: 313px; 
+}
+.sale-banner{}
+.sale-banner .sale-title{
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    color: #fff;
+    max-width: 480px;
+    line-height: 130%;
+}
+.sale-banner .sale-btns{
+    max-width: 560px;
+}
+.sale-banner .sale-btns a.btn{
+    margin-right: 40px;
+    padding: 23px 88px;
+    border: 1px solid rgb(255 255 255 / 0.14);
+    background: none;
+    color: #fff;
+}
+.sale-banner .sale-btns a.btn_action{
+    padding: 23px 62px;
+}
 
 
 

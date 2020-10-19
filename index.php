@@ -1094,6 +1094,30 @@
 
 
 
+	<div class="wr-sale-banner xs_flex xs_column xs_center">
+		<div class="container">
+			<div class="sale-banner xs_flex xs_middle xs_wrap">
+				<div class="sale-title">
+					Начни зарабатывать продавай свои материалы на портале
+				</div>
+				<div class="sale-btns xs_flex xs_middle">
+					<a href="#" class="btn" tabindex="0">
+						<span>Подробнее</span>
+					</a>
+					<a href="#" class="btn_action" tabindex="0">Зарегистрироваться</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
 
 	<link rel="stylesheet" href="css/media.css" />
 	<link rel="stylesheet" href="css/slick.css" />
