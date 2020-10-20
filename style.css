@@ -1591,9 +1591,15 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
 .events__image {
     width: 29.232%;
     text-align: center;
+    overflow: hidden;
 }
 .events__img {
-
+    vertical-align: top;
+    transition: .2s all;
+}   
+.events__image:hover .events__img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .events__info {
