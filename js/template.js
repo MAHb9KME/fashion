@@ -251,9 +251,9 @@ jQuery(function($){
 		speed: 400,
   		responsive: [
 		{
-		    breakpoint: 900,
+		    breakpoint: 1400,
 		    settings: {
-				slidesToShow: 2,
+				slidesToShow: 4,
 				slidesToScroll: 1
 			}
 		},
@@ -279,10 +279,13 @@ jQuery(function($){
 
         $('.selection .treatment .wr_text .arrow .next').removeClass('active')
 
+		$('.wr-mat-content').addClass('loader');
+
 			setTimeout(function()
-			{
+			{	
+
 				if(!$('.wr-mat-content .mat-content.'+$get_id).hasClass('slick-slider'))
-				{
+				{		
 					$('.wr-mat-content .mat-content.'+$get_id).slick({
 						slidesToShow: 5,
 				  		slidesToScroll: 1,
@@ -293,9 +296,9 @@ jQuery(function($){
 						speed: 400,
 				  		responsive: [
 						{
-						    breakpoint: 900,
+						    breakpoint: 1400,
 						    settings: {
-								slidesToShow: 2,
+								slidesToShow: 4,
 								slidesToScroll: 1
 							}
 						},
@@ -309,7 +312,9 @@ jQuery(function($){
 					}) 
 				}
 
-			}, 50)
+			$('.wr-mat-content').removeClass('loader');
+
+			}, 300)
 
         return false;
     });

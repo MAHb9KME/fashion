@@ -10,7 +10,7 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: 
 Text Domain: xsite.pro
-*/
+*/ 
 
 body, html{
     font-family: SF Pro Display, Arial, sans-serif;
@@ -767,7 +767,34 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     overflow: hidden;
     position: relative;
     margin-bottom: 120px;
+    max-height: 614px;
 }
+
+.wr-mat-content.loader:before{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(images/icons/load.svg) no-repeat 50% 50%;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 -20px;
+    z-index: 6;
+}
+.wr-mat-content.loader:after{
+    content: '';
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;   
+    bottom: 0;
+    z-index: 5;
+}
+
 .wr-mat-content .prev-click,
 .wr-mat-content .next-click{
     position: absolute;
@@ -873,22 +900,24 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
 
 
 
-.mat-content .item .info{
+.info-detail{
     margin-top: 45px;
     max-height: 74px;
     overflow: hidden;
 }
-.mat-content .item .info .identity{
+.info-detail .identity{
     transition: .4s all;
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
-.mat-content .item:hover .info .identity{
+.mat-content .item:hover .info-detail .identity{
     margin-top: -84px;
 }
 
-.mat-content .item .info .identity .info-txt{}
-.mat-content .item .info .identity .info-txt .name{
+.info-detail .identity .info-txt{
+   margin-right: 25px; 
+}
+.info-detail .identity .info-txt .name{
     font-size: 14px;
     font-weight: 300;
     color: #000;
@@ -898,40 +927,55 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     max-height: 24px;
     overflow: hidden;
 }
-.mat-content .item .info .identity .info-txt .price{}
+.info-detail .identity .info-txt .price{}
 
-.mat-content .item .info .identity .info-txt .price .new{
+.info-detail .identity .info-txt .price .new{
     color: #030404;
     font-size: 20px;
     font-weight: normal;
     margin-right: 18px;
 }
-.mat-content .item .info .identity .info-txt .price .old{
+.info-detail .identity .info-txt .price .old{
      font-size: 20px;
     color: #000000;
     opacity: 0.5;
     font-weight: 300;
+    position: relative; 
+}
+.info-detail .identity .info-txt .price .old:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #030404;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: 0px;
+    opacity: 0.3;
 }
 
-.mat-content .item .info .identity .avatar{
+.info-detail .identity .avatar{
     width: 64px;
     height: 64px;
     overflow: hidden;
 }
-.mat-content .item .info .identity .avatar img{
+.info-detail .identity .avatar img{
     vertical-align: top;
 }
 
-.mat-content .item .info .info-action{
+.info-detail .info-action{
     transition: .3s all;
     padding-bottom: 10px;
 }
-.mat-content .item:hover .info .info-action{}
+.mat-content .item:hover .info-detail .info-action{}
 
-.mat-content .item .info .info-action .btn{
+.info-detail .info-action .btn{
     margin-right: 20px;
 }
-.mat-content .item .info .info-action .btn_action{}
+.info-detail .info-action .btn_action{}
 
 
 .materials .btn_link{}
@@ -964,6 +1008,7 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     width: 100%;
     position: relative;
     display: block;
+    z-index: 2;
 }
 .video-inner a.full-img img{
     vertical-align: top;
@@ -1021,7 +1066,7 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     margin-bottom: 20px;
     max-height: 120px;
 }
-.video-list .item::last-child{
+.video-list .item:last-child{
     margin-bottom: 0px;
 }
 
@@ -1102,7 +1147,23 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     color: #000;
     font-weight: 300;
     opacity: 0.3;
+    position: relative;
 }
+.txt-ground .price .old:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #030404;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -1px;
+    opacity: 0.3;
+}
+
 
 .txt-ground .name{
     font-size: 14px;
@@ -1215,7 +1276,7 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     top: 50%;
     left: 0;
     right: 0;
-    margin-top: -1px;
+    margin-top: 0px;
     opacity: 0.3;
 }
 
@@ -1364,23 +1425,16 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     -webkit-text-fill-color: transparent;
 }
 
-.articles-field .item .text .info{
-    max-height: 64px;
-    overflow: hidden;
-}
-.articles-field .item .text .info:hover .identity{
+
+
+.articles-field .item .text .info-detail:hover .identity{
     margin-top: -84px;
 }
 
-.articles-field .item .text .info .identity{
-    margin-bottom: 20px;
-    transition: .2s all;
-    height: 64px;
-}
-.articles-field .item .text .info .identity .info-txt{
+.articles-field .item .text .info-detail .identity .info-txt{
     margin-right: 80px;
 }
-.articles-field .item .text .info .identity .info-txt .name{
+.articles-field .item .text .info-detail .identity .info-txt .name{
     font-size: 14px;
     font-weight: 300;
     color: #000;
@@ -1390,41 +1444,7 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     max-height: 24px;
     overflow: hidden;
 }
-.articles-field .item .text .info .identity .info-txt .price{
-    
-}
-.articles-field .item .text .info .identity .info-txt .price .new{
-    color: #030404;
-    font-size: 20px;
-    font-weight: normal;
-    margin-right: 18px;
-}
-.articles-field .item .text .info .identity .info-txt .price .old{
-    font-size: 20px;
-    color: #000000;
-    opacity: 0.5;
-    font-weight: 300;
-    position: relative;
-}
-.articles-field .item .text .info .identity .info-txt .price .old:before{
-    content: '';
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: #030404;
-    background-size: cover;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin-top: 0px;
-    opacity: 0.5;
-}
 
-.articles-field .item .text .info .identity .avatar{
-    width: 64px;
-    height: 64px;
-}
 
 
 
@@ -1485,11 +1505,11 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
 }
 
 .access{
-    margin: 0 -20px 70px;
+    margin: 0 -1.5% 70px;
 }
 .access .item{
-    margin: 0 20px;
-    width: 30%;
+    margin: 0 1.5%;
+    width: 30.123%;
 }
 .access .item .wr-photo{
     margin-bottom: 40px;
@@ -1618,6 +1638,63 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.events__info .info-detail:hover .identity {
+    margin-top: -84px;
+}
+
+
+
+
+.wr-footer {
+    margin-top: 90px;
+    background-color: #030404;
+    padding-bottom: 100px;
+}
+
+.wr-footer .wr-sale-banner{
+    margin: 0;
+}
+
+.wr-news-sandler {
+    margin: 0;
+}
+.news-sandler{}
+.news-sandler .sandler-title{}
+
+.news-sandler form.sandler-btns{}
+.news-sandler form.sandler-btns .collector{}
+
+.news-sandler form.sandler-btns .acception{}
+.news-sandler form.sandler-btns .acception span{}
+
+
+
+
+
+
+
+
+.footer {
+    border-top: 1px solid #272727;
+    border-bottom: 1px solid #272727;
+}
+.footer-inner {
+    padding: 115px 0 125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

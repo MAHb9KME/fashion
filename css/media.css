@@ -1,3 +1,89 @@
+
+
+@media screen and (max-width:1440px){
+	.mat-content {
+	    margin: 0px -24%;
+	}
+	.wr-mat-content .prev-click, .wr-mat-content .next-click {
+	    width: 6.5%;
+	}
+}
+
+
+@media screen and (max-width:1400px){
+	.mat-content {
+	    margin: 0px 2.4%;
+	}
+	.wr-mat-content .prev-click, .wr-mat-content .next-click {
+	    width: 4.7%;
+	}
+}
+
+
+
+@media screen and (max-width:1366px){
+	h1, .title {
+	    font-size: 46px;
+	    margin-bottom: 60px;
+	}
+	.ht-distance {
+	    padding: 50px 0;
+	}
+	.wr-sale-banner {
+	    margin: 50px 0;
+	}
+	.sale-banner .sale-title {
+	    font-size: 30px;
+	}
+	.mat-content .item a.item-title {
+	    font-size: 21px;
+	}
+	.mat-navigate ul li {
+	    font-size: 13px;
+	    padding: 20px 35px 20px 20px;
+	}
+	.mat-navigate {
+	    margin-bottom: 70px;
+	}
+	.wr-mat-content {
+	    margin-bottom: 100px;
+	}
+	.articles-field .item .text .tlt,
+	.events__link {
+	    font-size: 27px;
+	}
+	.wr-access {
+	    margin: 50px 0;
+	    padding: 100px 0;
+	}
+	.access .item .item-title {
+	    font-size: 22px;
+	}
+	.events__date {
+	    font-size: 34px;
+	    margin-bottom: 20px;
+	}
+	.event__address {
+	    font-size: 15px;
+	    margin-bottom: 10px;
+	}
+	.wr-footer {
+	    margin-top: 50px;
+	}
+
+}
+
+@media screen and (max-width:1250px){
+	.alive__line {
+	    margin-bottom: 40px;
+	}
+	.events__wr-item {
+	    margin-bottom: 60px;
+	}
+
+
+}
+
 @media screen and (max-width:960px){
 	.buttonMenu{
 		display:block;
