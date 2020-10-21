@@ -317,26 +317,26 @@ jQuery(function($){
 
     // Блок Видео. Клик на превью.
 
-	$('.wr-video-inner').slick({
-	    infinite: true,
-	    slidesToShow: 1,
-	    slidesToScroll: 1,
-	    arrows: false,
-	    fade: true,
-	    asNavFor: '.video-list'
-	});
+	// $('.wr-video-inner').slick({
+	//     infinite: true,
+	//     slidesToShow: 1,
+	//     slidesToScroll: 1,
+	//     arrows: false,
+	//     fade: true,
+	//     asNavFor: '.video-list'
+	// });
 
-	$('.video-list').slick({
-	    infinite: true,
-	    slidesToShow: 4,
-	    slidesToScroll: 1,
-	    asNavFor: '.wr-video-inner',
-	    centerMode: false,
-	    focusOnSelect: true,
-        vertical: true,
-        arrows:false,
-        verticalSwiping: true
-	});
+	// $('.video-list').slick({
+	//     infinite: true,
+	//     slidesToShow: 4,
+	//     slidesToScroll: 1,
+	//     asNavFor: '.wr-video-inner',
+	//     centerMode: false,
+	//     focusOnSelect: true,
+ //        vertical: true,
+ //        arrows:false,
+ //        verticalSwiping: true
+	// });
 
 
 
