@@ -320,6 +320,32 @@ jQuery(function($){
     });
 
 
+	// Выпадающий список
+
+		$('.selection-box__name').click(function()
+		{
+			jQuery(this).toggleClass('selection-box__name--show')
+
+			jQuery(this).parents('.selection-box').find('.selection-box__list').toggleClass('selection-box__list--show')
+		})
+		
+		$('.selection-box__list > div').click(function()
+		{
+			var sel = jQuery(this).parents('.selection-box')
+			
+			sel.find('.selection-box__name').text(jQuery(this).text())
+			sel.find('.selection-box__list').removeClass('selection-box__list--show')
+			sel.find('.selection-box__item').removeClass('selection-box__item--selected')
+			jQuery(this).addClass('selection-box__item--selected')
+			sel.find('.selection-box__item').val(jQuery(this).data('value'))
+
+			jQuery('.selection-box__name').removeClass('selection-box__name--show')
+		})
+		
+		
+
+
+
     // Блок Видео. Клик на превью.
 
 	// $('.wr-video-inner').slick({

@@ -1562,7 +1562,90 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
 .events {}
 .events__inner {}
 
-.selection-line {}
+
+
+.main-selection {
+    background-color: #030404;
+    border-radius: 50px;
+    margin-bottom: 80px;
+}
+.selection-box {
+    position: relative;
+    width: 22.2%;
+}
+.selection-box__name {
+    color: #fff;
+    opacity: 0.3; 
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    border: 2px solid transparent;
+    box-shadow: none;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 41px 55px 41px 40px;
+    transition: .2s all;
+}
+.selection-box__name:hover ,
+.selection-box__name--show{
+    opacity: 1;
+}
+.selection-box__name:before{
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-image: url(images/icons/arrow-dropdown.svg);
+    background-repeat: no-repeat;
+    background-position: 8px 9px;
+    background-size: 8px;
+    position: absolute;
+    top: 50%;
+    left: auto;
+    right: 20px;
+    margin-top: -12px;
+}
+
+.selection-box__list {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -2px;
+    top: 100%;
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    z-index: 10;
+    transition: .2s all;
+}
+.selection-box__list--show {
+    box-shadow: 0 6px 16px 0 rgba(0,0,0,.15);
+    max-height: 400px;
+    overflow: auto;
+    background: #fff;
+}
+.selection-box__item {
+    padding: 9px 25px;
+    box-sizing: border-box;
+    transition: .2s all;
+    cursor: pointer;
+    transition: .2s all;
+}
+.selection-box__item:hover {
+    background: #f3f3f3;
+}
+.selection-box__item--selected {
+    font-weight: 700;
+    cursor: default;
+}
+
+
 
 
 .events__content {}
