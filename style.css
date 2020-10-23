@@ -1074,6 +1074,7 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
 
 
 .video-list .item .short-img{
+    width: 32%;
     max-width: 120px;
     margin-right: 20px;
 }
@@ -1116,6 +1117,7 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
 } 
 
 .video-list .item .text{
+    width: 64%;
     max-width: 240px;
 }
 .video-list .item .text a{
@@ -1187,11 +1189,11 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     font-weight: 300;
     letter-spacing: 0.8px;
     color: #fff;
-    max-width: 480px;
+    width: 41%;
     line-height: 130%;
 }
 .sale-banner .sale-btns{
-    max-width: 560px;
+    max-width: 48%;
 }
 .sale-banner .sale-btns a.btn{
     margin-right: 40px;
@@ -1387,7 +1389,6 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
 }
 .articles-field .item a.img{
     display: block;
-    margin-right: 60px;
     overflow: hidden;
     width: 29.488%;
     margin-right: 5%;
@@ -1408,6 +1409,9 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
 }
 .articles-field .item .text{
     padding: 25px 0;
+}
+.articles-field .item .text .info-detail{
+    margin-top: 0;
 }
 .articles-field .item .text .tlt{
     display: block;
@@ -1510,6 +1514,8 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
 .access .item{
     margin: 0 1.5%;
     width: 30.123%;
+    position: relative;
+    padding-bottom: 24px;
 }
 .access .item .wr-photo{
     margin-bottom: 40px;
@@ -1540,7 +1546,7 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     transition: .2s all;
     margin-bottom: 30px;
     font-size: 24px;
-    height: 65px;
+    height: 61px;
     overflow: hidden;
     line-height: 130%;
 }
@@ -1553,6 +1559,10 @@ header nav .menu_wrapper ul li ul.sub-menu li a:hover {
     color: #fff;
     font-weight: 300;
     opacity: 0.5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 
