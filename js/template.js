@@ -253,15 +253,8 @@ jQuery(function($){
 		{
 		    breakpoint: 1400,
 		    settings: {
-				slidesToShow: 4,
+				slidesToShow: 3,
 				slidesToScroll: 1
-			}
-		},
-		{
-		    breakpoint: 1200,
-		    settings: {
-		        slidesToShow: 3,
-		        slidesToScroll: 1
 			}
 		},
 		{
@@ -359,7 +352,15 @@ jQuery(function($){
 
 			jQuery('.selection-box__name').removeClass('selection-box__name--show')
 		})
-		
+
+
+// Бегущая строка
+
+	$('.marquee').marquee({
+	  duration: 9000,
+	  infinite: true,
+	  duplicated: true
+	});
 		
 
 

@@ -1,4 +1,25 @@
-
+@media screen and (min-width:1441px) and (max-width:1919px) { 
+	.btn {
+	    padding: 11px 30px;
+	}
+	.info-detail .info-action .btn {
+	    margin-right: 10px;
+	}
+	.btn span {
+	    font-size: 11px;
+	}
+	.btn_action {
+	    padding: 11px 35px;
+	    font-size: 11px;
+	}
+	.info-detail .identity .info-txt .price .new {
+	    font-size: 16px;
+	    margin-right: 14px;
+	}
+	.info-detail .identity .info-txt .price .old {
+	    font-size: 16px;
+	}
+}
 
 @media screen and (max-width:1440px){
 	.mat-content {
@@ -73,6 +94,13 @@
 
 }
 
+@media screen and (max-width:1350px){
+	.selection-box__name {
+	    font-size: 14px;
+	    padding: 27px 55px 27px 40px;
+	}
+}
+
 @media screen and (max-width:1250px){
 	.alive__line {
 	    margin-bottom: 40px;
@@ -82,7 +110,7 @@
 	}
 	.sale-banner .sale-title {
 	    width: 47%;
-	}
+	}/*
 	.sale-banner .sale-btns a.btn_action {
 	    padding: 17px 35px;
 	    font-size: 11px;
@@ -94,8 +122,59 @@
 	}
 	.btn span {
 	    font-size: 11px;
+	}*/
+
+	.sale-banner .sale-btns {
+		-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	    -webkit-justify-content: flex-start;
+	    -ms-flex-pack: start;
+	    justify-content: flex-start;
 	}
-	
+	.sale-banner .sale-title,
+	.sale-banner .sale-btns {
+		width: 100%;
+	    max-width: inherit;
+	}
+	.sale-banner .sale-title {
+		margin-bottom: 40px;
+	}
+
+
+	.mat-content .item .info-detail .info-action,
+	.info-detail .identity .info-txt .price {
+		-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	}
+	.mat-content .info-detail .info-action .btn,
+	.mat-content .info-detail .info-action .btn_action {
+		width: 100%;
+	}
+	.mat-content .info-detail .info-action .btn {
+	    margin-right: 0;
+	    padding: 5px 30px;
+    	margin-bottom: 6px;
+	}
+	.mat-content .btn span {
+	    font-size: 11px;
+	}
+	.mat-content .info-detail .info-action .btn_action {
+		font-size: 11px;
+	    padding: 5px 30px;
+	    text-align: center;
+	}
+	.mat-content .info-detail {
+	    max-height: 90px;
+	}
+	.mat-content .info-detail .identity {
+	    min-height: 91px;
+	}
+	.mat-content .item:hover .info-detail .identity {
+	    margin-top: -111px;
+	}
+
 }
 
 
@@ -158,6 +237,64 @@
 		-webkit-align-items: center;
 	    -ms-flex-align: center;
 	    align-items: center;
+	}
+}
+
+@media screen and (max-width:1024px){
+	h1, .title {
+	    font-size: 38px;
+	    margin-bottom: 40px;
+	}
+	.ht-distance {
+	    padding: 40px 0;
+	}
+	.sale-banner .sale-title {
+	    font-size: 25px;
+	}
+	.news-sandler .sandler-title span {
+	    font-size: 28px;
+	}
+	.wr-access {
+	    padding: 60px 0;
+	}
+}
+
+@media screen and (max-width:1000px){
+	.news-sandler {
+		-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	}
+	.news-sandler .sandler-title,
+	form.sandler-btns {
+		width: 100%;
+	}
+	.news-sandler .sandler-title {
+		margin-bottom: 40px;
+	}
+	form.sandler-btns .collector input {
+		width: 75%;
+		max-width: none;
+	}
+	.main-selection {
+		-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	    border-radius: 5px;
+	}
+	.selection-box {
+		width: 100%;
+	}
+	.selection-box__list {
+		position: relative;
+	    top: 0;
+	}
+	.selection-box__name {
+	    font-size: 15px;
+	}
+	.selection-box__item {
+	    padding: 9px 40px;
+	    font-size: 14px;
 	}
 }
 
@@ -385,6 +522,9 @@
 	.events__info {
 		margin-bottom: 0;
 	}
+	.wr-info-action a.chosen .ch-title {
+		display: none;
+	}
 }
 
 @media screen and (max-width:768px){
@@ -420,6 +560,9 @@
 	    -ms-flex-pack: justify;
 	    justify-content: space-between;
 	}
+	.articles-field .item {
+	    margin-bottom: 30px;
+	}
 }
 
 
@@ -443,7 +586,7 @@
 		display: none;
 	}
 	.access {
-		margin: 0 0% 70px;
+		margin: 0 0% 40px;
 		-webkit-flex-wrap: wrap;
 	    -ms-flex-wrap: wrap;
 	    flex-wrap: wrap;
@@ -455,6 +598,83 @@
 	.access .item {
 	    margin: 0 0 40px;
 	    width: 100%;
+	}
+	.btn_link {
+		padding: 23px 30px;
+	}
+	.wr-mat-content {
+		max-height: initial;
+	}
+}
+
+@media screen and (max-width:650px) {
+	.sale-banner .sale-btns {
+		-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	}
+	.sale-banner .sale-btns a.btn,
+	.sale-banner .sale-btns a.btn_action {
+		width: 100%;
+	}
+	.sale-banner .sale-btns a.btn {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.sale-banner .sale-btns a.btn_action {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:550px) {
+	form.sandler-btns .collector {
+		-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	}
+	form.sandler-btns .collector input,
+	.news-sandler form.sandler-btns .collector .btn_action {
+		width: 100%;
+	}
+	form.sandler-btns .collector input {
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+	.news-sandler form.sandler-btns .collector .btn_action {
+		width: 100%;
+		text-align: center;	
+	}
+	.mat-navigate ul {
+		-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	}
+	.mat-navigate ul li {
+	    width: 50%;
+	    font-size: 12px;
+	    padding: 15px 25px 15px 15px;
+	}
+	.mat-navigate ul li:first-child {
+	    padding-left: 15px;
+	}
+	.video-inner .full-img .text {
+	    left: 20px;
+	    bottom: 25px;
+	    right: 20px;
+	}
+	.video-inner .full-img .text .txt-title {
+	    font-size: 21px;
+	}
+	.video-inner .like {
+	    right: 25px;
+	    bottom: 25px;
+	}
+	h1, .title {
+	    font-size: 32px;
+	}
+	.audio-field ,
+	.articles-field {
+		margin-bottom: 60px;
 	}
 }
 
@@ -482,7 +702,44 @@
 	    border-left: 1px solid #e5e5e5;
 	    margin-bottom: 20px;
 	}
+	.btn_link {
+	    font-size: 15px;
+
+	}
+	.btn_link {
+	    padding: 23px 60px 23px 30px;
+	}
+	.btn_link:before, .btn_link:after {
+	    right: 30px;
+	}
+	.mat-content .item {
+	    max-width: initial;
+	}
  }
 
+@media screen and (max-width:450px){
+	 .video-inner a.full-img img {
+	    min-height: 300px;
+	}
+	.articles-field .item {
+		position: relative;
+	}
+	.wr-info-action a.chosen {
+		position: absolute;
+		top: 15px;
+		right: 15px;
+	}
+}
 
-
+@media screen and (max-width:400px){
+	.mat-navigate ul li {
+	    width: 100%;
+	}
+	.info-detail .identity .info-txt .price .new,
+	.info-detail .identity .info-txt .price .old {
+	    font-size: 16px;
+	}
+	.info-detail .identity .info-txt {
+	    margin-right: 16px;
+	}
+}

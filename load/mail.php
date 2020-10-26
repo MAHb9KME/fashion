@@ -38,7 +38,7 @@
 			if(empty($xs_theme))
 				$xs_theme = 'Заявка с сайта бизнес сайта';
 			
-			$result = wp_mail("alexey@simanov.pro", $xs_theme, $message, $headers); 
+			$result = wp_mail("support@xsite.pro", $xs_theme, $message, $headers); 
 			//$result = wp_mail("agrika-nn@yandex.ru", $xs_theme, $message, $headers); 
 			
 			if($result) 
