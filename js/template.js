@@ -57,9 +57,9 @@ jQuery(function($){
 	})
 
 	
-	//tpaneScroll()
-	//$(window).resize(function(){tpaneScroll()})
-	//$(document).scroll(function(){tpaneScroll()})
+	tpaneScroll()
+	$(window).resize(function(){tpaneScroll()})
+	$(document).scroll(function(){tpaneScroll()})
 
 	
 	// Маска для телефона
@@ -101,7 +101,7 @@ jQuery(function($){
 	{
 		if (
 			$(event.target).closest("header nav .menu_container .menu_wrapper").length ||
-			$(event.target).closest("header nav .buttonMenu").length 
+			$(event.target).closest("header .buttonMenu").length 
 		) return;
 
 		$('body').removeClass('show_menu')
@@ -354,7 +354,7 @@ jQuery(function($){
 		})
 
 
-// Бегущая строка
+	// Бегущая строка
 
 	$('.marquee').marquee({
 	  duration: 9000,
@@ -363,30 +363,28 @@ jQuery(function($){
 	});
 		
 
-
-
     // Блок Видео. Клик на превью.
 
-	// $('.wr-video-inner').slick({
-	//     infinite: true,
-	//     slidesToShow: 1,
-	//     slidesToScroll: 1,
-	//     arrows: false,
-	//     fade: true,
-	//     asNavFor: '.video-list'
-	// });
+	/* $('.wr-video-inner').slick({
+	    infinite: true,
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	    arrows: false,
+	    fade: true,
+	    asNavFor: '.video-list'
+	});
 
-	// $('.video-list').slick({
-	//     infinite: true,
-	//     slidesToShow: 4,
-	//     slidesToScroll: 1,
-	//     asNavFor: '.wr-video-inner',
-	//     centerMode: false,
-	//     focusOnSelect: true,
- //        vertical: true,
- //        arrows:false,
- //        verticalSwiping: true
-	// });
+	$('.video-list').slick({
+	    infinite: true,
+	    slidesToShow: 4,
+	    slidesToScroll: 1,
+	    asNavFor: '.wr-video-inner',
+	    centerMode: false,
+	    focusOnSelect: true,
+        vertical: true,
+        arrows:false,
+        verticalSwiping: true
+	}); */
 
 
 
